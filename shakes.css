@@ -1,0 +1,32 @@
+body {
+  font-family: 'IM Fell English', serif;
+  text-align: center;
+  background-color: #ecf1f6;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(500, 600px);
+  align-items: center;
+}
+
+.figure {
+  grid-column-start: 1;
+  justify-self: right;
+
+}
+
+img {
+  border-radius: 5px;
+}
+
+.stanza {
+  grid-column-start: 2;
+  background-color: #F1DE7F;
+  height: 480px;
+  width: 300px;
+  padding: 2%;
+  border-radius: 5px;
+  justify-self: left;
+}
